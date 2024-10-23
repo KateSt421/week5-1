@@ -63,6 +63,12 @@ body {
   height: 60px;
 }
 
+.navy:hover {
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 20px #fff;
+  border-radius: 20px;
+}
+
 .navy,
 .navy-ul-footer {
   list-style-type: none;
@@ -167,4 +173,7 @@ body {
 
 .btn:hover {
   color: #2ed0ed;
+  -webkit-box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 20px #fff;
+  border-radius: 20px;
 }
