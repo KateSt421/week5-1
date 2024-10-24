@@ -1,21 +1,21 @@
 @font-face {
   font-family: "Varela Round";
-  src: url("../fonts/VarelaRound-Regular.eot");
+  src: url("../assets/fonts/VarelaRound-Regular.eot");
   src: local("Varela Round Regular"), local("VarelaRound-Regular"),
-    url("../fonts/VarelaRound-Regular.woff") format("woff2"),
-    url("../fonts/VarelaRound-Regular.woff") format("woff"),
-    url("../fonts/VarelaRound-Regular.ttf") format("truetype");
+    url("../assets/fonts/VarelaRound-Regular.woff") format("woff2"),
+    url("../assets/fonts/VarelaRound-Regular.woff") format("woff"),
+    url("../assets/fonts/VarelaRound-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Open Sans";
-  src: url("../fonts/OpenSans-Regular.eot");
+  src: url("../assets/fonts/OpenSans-Regular.eot");
   src: local("Open Sans Regular"), local("OpenSans-Regular"),
-    url("../fonts/OpenSans-Regular.woff2") format("woff2"),
-    url("../fonts/OpenSans-Regular.woff") format("woff"),
-    url("../fonts/OpenSans-Regular.ttfs") format("truetype");
+    url("../assets/fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../assets/fonts/OpenSans-Regular.woff") format("woff"),
+    url("../assets/fonts/OpenSans-Regular.ttfs") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -35,21 +35,6 @@ body {
 .content {
   width: 1200px;
   margin: 0 auto;
-}
-
-.header-left {
-  display: flex;
-}
-
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 372px;
-}
-
-.logo-toy {
-  text-align: center;
 }
 
 .logo {
@@ -107,8 +92,6 @@ body {
 }
 
 .item {
-  flex-wrap: wrap;
-  position: relative;
   margin-bottom: 30px;
 }
 
